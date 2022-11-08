@@ -4,17 +4,19 @@
    # Global selectors
    # ================================================================= */
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
-  word-break: normal;
   -moz-tab-size: 4;
   -o-tab-size: 4;
-     tab-size: 4;
+  box-sizing: border-box;
+  tab-size: 4;
+  word-break: normal;
 }
 
 *,
 ::before,
 ::after {
+  -webkit-box-sizing: inherit;
   background-repeat: no-repeat; /* Set `background-repeat: no-repeat` to all elements and pseudo elements */
   box-sizing: inherit;
 }
@@ -26,17 +28,17 @@ html {
 }
 
 * {
-  padding: 0; /* Reset `padding` and `margin` of all elements */
   margin: 0;
+  padding: 0; /* Reset `padding` and `margin` of all elements */
 }
 
 /* # =================================================================
    # General elements
    # ================================================================= */
 hr {
-  overflow: visible; /* Show the overflow in Edge and IE */
-  height: 0; /* Add the correct box sizing in Firefox */
   color: inherit; /* Correct border color in Firefox. */
+  height: 0; /* Add the correct box sizing in Firefox */
+  overflow: visible; /* Show the overflow in Edge and IE */
 }
 
 details,
@@ -57,11 +59,11 @@ small {
 }
 
 abbr[title] {
+  -webkit-text-decoration: underline dotted;
   border-bottom: none; /* Remove the bottom border in Chrome 57 */
   /* Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari */
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 a {
@@ -231,8 +233,8 @@ legend {
   color: inherit; /* Correct the color inheritance from `fieldset` elements in IE */
   display: table; /* Correct the text wrapping in Edge and IE */
   max-width: 100%; /* Correct the text wrapping in Edge and IE */
-  white-space: normal; /* Correct the text wrapping in Edge and IE */
   max-width: 100%; /* Correct the text wrapping in Edge 18- and IE */
+  white-space: normal; /* Correct the text wrapping in Edge and IE */
 }
 
 ::-webkit-file-upload-button {
@@ -278,58 +280,9 @@ progress {
 }
 
 .cls-1 {
-  stroke: url(#Orange_Yellow-2);
-}
-
-.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
   fill: none;
+  stroke: url(#Orange_Yellow);
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 7px;
+  stroke-width: 5px;
 }
-
-.cls-2 {
-  stroke: url(#Orange_Yellow-3);
-}
-
-.cls-3 {
-  stroke: url(#Orange_Yellow-5);
-}
-
-.cls-4 {
-  stroke: url(#Orange_Yellow-6);
-}
-
-.cls-5 {
-  stroke: url(#Orange_Yellow-4);
-}
-
-.cls-6 {
-  stroke: url(#Orange_Yellow-9);
-}
-
-.cls-7 {
-  stroke: url(#Orange_Yellow-8);
-}
-
-.cls-8 {
-  stroke: url(#Orange_Yellow-7);
-}
-
-.cls-9 {
-  stroke: url(#Orange_Yellow-12);
-}
-
-.cls-10 {
-  stroke: url(#Orange_Yellow-11);
-}
-
-.cls-11 {
-  stroke: url(#Orange_Yellow-10);
-}
-
-.cls-12 {
-  stroke: url(#Orange_Yellow);
-}
-
-/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 jQuery(function($){
-
   //SVGアニメーションの描画
-var stroke;
+let stroke;
 stroke = new Vivus('mask-animation', {//アニメーションをするIDの指定
     start:'manual',//自動再生をせずスタートをマニュアルに
     type: 'scenario-sync',// アニメーションのタイプを設定
