@@ -1,9 +1,5 @@
 @use "reset";
 
 .cls-1 {
-  fill: none;
-  stroke: url(#Orange_Yellow);
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 5px;
+  fill: url(#Orange_Yellow);
 }
